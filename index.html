@@ -1,63 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Shippen Cards</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shippen Cards | Sports Cards Buy • Sell • Collect</title>
 
 <style>
-body{
-    background:#0d1b3d;
-    color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    margin:0;
-    padding-top:100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    font-size:64px;
-    margin-bottom:10px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#0d1b3d,#142850);
+    color: white;
 }
 
-.tagline{
-    font-size:24px;
-    margin-bottom:40px;
+header {
+    text-align: center;
+    padding: 60px 20px;
 }
 
-.button{
-    display:inline-block;
-    background:#f5c542;
-    color:black;
-    padding:20px 40px;
-    text-decoration:none;
-    border-radius:10px;
-    font-size:24px;
-    font-weight:bold;
+.logo {
+    max-width: 250px;
+    margin-bottom: 25px;
 }
 
-.footer{
-    margin-top:75px;
-    color:#cccccc;
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #d6d6d6;
+}
+
+.hero {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 18px 40px;
+    background: #f5c542;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.cards-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.cards-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card-box {
+    background: rgba(255,255,255,.08);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-box h3 {
+    margin-top: 15px;
+}
+
+.about {
+    background: rgba(0,0,0,.2);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #ccc;
 }
 </style>
 </head>
 
 <body>
 
-<h1>Shippen Cards</h1>
+<header>
+    <img src="4E5F41F7-EF95-43FF-9A12-1904FE1A7DC2.png" class="logo" alt="Shippen Cards Logo">
+    <h1>Shippen Cards</h1>
+    <p class="tagline">Sports Cards • Buy • Sell • Collect</p>
+</header>
 
-<div class="tagline">
-Sports Cards • Buy • Sell • Collect
+<section class="hero">
+    <h2>Trusted Sports Card Seller</h2>
+
+    <p>
+        Browse our latest sports card inventory featuring baseball,
+        football, basketball, graded cards, autos, parallels, rookies,
+        and more. New listings are added regularly.
+    </p>
+
+    <a class="button"
+       href="https://www.ebay.com/usr/shippencards"
+       target="_blank">
+       Shop eBay Listings
+    </a>
+</section>
+
+<section class="cards-section">
+
+<h2>What You'll Find</h2>
+
+<div class="card-grid">
+
+<div class="card-box">
+<h3>Baseball Cards</h3>
+<p>Topps, Bowman, Chrome, Refractors and Prospects.</p>
 </div>
+
+<div class="card-box">
+<h3>Football Cards</h3>
+<p>Rookies, Autos, Numbered Cards and Inserts.</p>
+</div>
+
+<div class="card-box">
+<h3>Basketball Cards</h3>
+<p>Modern Stars, RCs, Parallels and Graded Cards.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>Why Buy From Shippen Cards?</h2>
+
+<p>
+Fast shipping, secure packaging, honest listings,
+and a passion for the hobby. Whether you're a collector,
+investor, or set builder, you'll find quality cards and
+reliable service.
+</p>
+
+<br><br>
 
 <a class="button"
 href="https://www.ebay.com/usr/shippencards"
 target="_blank">
-View My eBay Listings
+Visit the Store
 </a>
 
-<div class="footer">
-New cards added regularly
-</div>
+</section>
+
+<footer>
+© 2026 Shippen Cards • All Rights Reserved
+</footer>
 
 </body>
 </html>
